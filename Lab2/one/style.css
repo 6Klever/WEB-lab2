@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+*, 
+*::after, 
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    width: 700px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+th{
+    background-color: rgb(215, 215, 215);
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+td:nth-child(1n + 6){
+    background-color: rgb(202, 202, 202);;
+}
+
+.active{
+    background-color: aqua;
+}
+
+
+/* CONTAINER__INFO / DATE */
+
+.container__info{
+    background-color: rgb(117, 189, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.month{
+    padding: 10px;
+}
+
+.year{
+    padding: 10px 0 20px 0;
+}
+
+/* HOVERS */
+
+td:hover{
+    background-color: rgb(169, 169, 169);
+    transition: all 0.25s;
+}
+
+/* ARROWS */
+
+.date__slider-btn{
+    border-radius: 30px;
+    width: 35px;
+    height: 35px;
+    border: none;
+
+    display: flex;
+    cursor: pointer;
+}
+
+.date__slider-btn:hover{
+    background-color: #1b4df1;
+    transition: all 0.25s;
+}
+
+.date__slider-btn-arrow{
+    margin: auto;
+    height: 18px;
+    width: 18px;
+}
+
+.date__slider-btn--prev{
+    margin-left: 15px;
+}
+
+.date__slider-btn--next{
+    margin-right: 15px;
+}
+
+
+

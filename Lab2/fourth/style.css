@@ -1,0 +1,86 @@
+h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: #fff;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    padding-top: 50px;
+}
+
+tbody td:nth-child(2n+1) {
+    background-color:rgba(219, 219, 219, 0.6)
+}
+tbody tr:nth-child(2n+2) {
+    background-color:rgba(216, 215, 215, 0.6)
+}
+
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+/* PLANs */
+.plan {
+    background-color: #9E9AC2;
+}
+
+.starter {
+    background-color: #8681B3;
+}
+
+.econom {
+    background-color: #6963A1;
+}
+
+.standart {
+    background-color: #4F4891;
+}
+
+.professional {
+    background-color: #3D3585;
+}
+
+th{
+    padding: 10px 0;
+}
+
+.econom-p{
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+tbody{
+    text-align: center;
+}
+
+td{
+    padding: 10px 50px;
+}
+
+.button-start{
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.purple-c{
+    color: #3D3585;
+}
+
+td:hover{
+    background-color: #959494 !important;
+    outline: 1px solid;
+    transition: all 0.25s;
+}
